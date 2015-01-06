@@ -1,0 +1,26 @@
+Read about a unix command on the man page.
+What command did you read about? What does it do?
+
+I read about the sort command. It sorts the lines of a text file.
+By default, the whole line is taking as the input but keys can
+be specified. It can also reverse sort by adding -r after sort.
+
+Describe 2 methods that strings have but symbols don't and vice versa.
+Pick a method defined on the Enumerable class (arrays, etc).
+What does it do and when might you use it?
+
+Methods that strings have but symbols don't:
+str*integer --> outputs a string containing integer number of copies of
+ the string, where the integer is >=0
+
+str<<obj --> returns a string with object concatenated to the string
+
+Methods in symbol not in strings:
+to_proc --> it returns a Proc object. A Proc object is some code bound
+to a local variable.
+
+id2name --> Returns the string or name corresponding to symbol
+
+Method defined on the Enumerable class:
+take(n) --> returns the first n elements of an array. Might be used to find
+if a string is a substring of another string. 
